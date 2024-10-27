@@ -1,8 +1,8 @@
+os
 numpy
 pathlib
 pandas
 geopandas
-pathlib
 shapely
 folium
 leafmap
