@@ -1,0 +1,48 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.32.2-Lima">
+  <identifier>MapPLUTO 24v3_1 - Shoreline Clipped</identifier>
+  <parentidentifier></parentidentifier>
+  <language></language>
+  <type>dataset</type>
+  <title>MapPLUTO 24v3_1 - Shoreline Clipped</title>
+  <abstract>This dataset represents a compilation of data from various government agencies throughout the City of New York. The underlying geography is derived from the Tax Lot Polygon feature class that is part of the Department of Finance's Digital Tax Map (DTM). The tax lots have been clipped to the shoreline, as defined by NYCMap planimetric features. The attribute information is from the Department of City Planning's PLUTO data. The attribute data pertains to tax lot and building characteristics and geographic, political and administrative information for each tax lot in New York City.The Tax Lot Polygon feature class and PLUTO are derived from different sources. As a result, some PLUTO records do not have a corresponding tax lot in the Tax Lot polygon feature class at the time of release. These records are included in a separate non-geographic PLUTO Only table. There are a number of reasons why there can be a tax lot in PLUTO that does not match the DTM; the most common reason is that the various source files are maintained by different departments and divisions with varying update cycles and criteria for adding and removing records. The attribute definitions for the PLUTO Only table are the same as those for MapPLUTO. DCP Mapping Lots includes some features that are not on the tax maps. They have been added by DCP for cartographic purposes. They include street center 'malls', traffic islands and some built streets through parks. These features have very few associated attributes.To report problems, please open a GitHub issue or email DCPOpendata@planning.nyc.gov.
+
+MapPLUTO contains extensive land use and geographic data at the tax lot level. MapPLUTO has over seventy data fields containing three basic types of data: tax lot characteristics, building characteristics, and geographic/political/administrative districts. This version is clipped to the shoreline and does not contain lots completely or partially underwater.
+
+This dataset represents a compilation of data from various government agencies throughout the City of New York. The underlying geography is derived from the Tax Lot Polygon feature class that is part of the Department of Finance's Digital Tax Map (DTM). The tax lots have been clipped to the shoreline, as defined by NYCMap planimetric features. The attribute information is from the Department of City Planning's PLUTO data. The attribute data pertains to tax lot and building characteristics and geographic, political and administrative information for each tax lot in New York City.The Tax Lot Polygon feature class and PLUTO are derived from different sources. As a result, some PLUTO records do not have a corresponding tax lot in the Tax Lot polygon feature class at the time of release. These records are included in a separate non-geographic PLUTO Only table. There are a number of reasons why there can be a tax lot in PLUTO that does not match the DTM; the most common reason is that the various source files are maintained by different departments and divisions with varying update cycles and criteria for adding and removing records. The attribute definitions for the PLUTO Only table are the same as those for MapPLUTO. DCP Mapping Lots includes some features that are not on the tax maps. They have been added by DCP for cartographic purposes. They include street center 'malls', traffic islands and some built streets through parks. These features have very few associated attributes.To report problems, please open a GitHub issue or email DCPOpendata@planning.nyc.gov.
+
+MapPLUTO contains extensive land use and geographic data at the tax lot level. MapPLUTO has over seventy data fields containing three basic types of data: tax lot characteristics, building characteristics, and geographic/political/administrative districts. This version is clipped to the shoreline and does not contain lots completely or partially underwater.</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>Tax Lot</keyword>
+    <keyword>Parcels</keyword>
+    <keyword>DTM</keyword>
+    <keyword>PLUTO</keyword>
+    <keyword>MapPLUTO</keyword>
+    <keyword>boundaries</keyword>
+  </keywords>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>Tax Lot</keyword>
+  </keywords>
+  <links/>
+  <dates/>
+  <fees></fees>
+  <constraints type="Limitations of use">MapPLUTO is being provided by the Department of City Planning (DCP) on DCP's website for informational purposes only. DCP does not warranty the completeness, accuracy, content, or fitness for any particular purpose or use of MapPLUTO, nor are any such warranties to be implied or inferred with respect to MapPLUTO as furnished on the website. DCP and the City are not liable for any deficiencies in the completeness, accuracy, content, or fitness for any particular purpose or use of MapPLUTO, or applications utilizing MapPLUTO, provided by any third party.</constraints>
+  <constraints type="Access">None</constraints>
+  <rights>NYC Department of City Planning, Information Technology Division</rights>
+  <rights>MapPLUTO is being provided by the Department of City Planning (DCP) on DCP's website for informational purposes only. DCP does not warranty the completeness, accuracy, content, or fitness for any particular purpose or use of MapPLUTO, nor are any such warranties to be implied or inferred with respect to MapPLUTO as furnished on the website. DCP and the City are not liable for any deficiencies in the completeness, accuracy, content, or fitness for any particular purpose or use of MapPLUTO, or applications utilizing MapPLUTO, provided by any third party.</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt></wkt>
+      <proj4></proj4>
+      <srsid>0</srsid>
+      <srid>0</srid>
+      <authid></authid>
+      <description></description>
+      <projectionacronym></projectionacronym>
+      <ellipsoidacronym></ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent/>
+</qgis>
