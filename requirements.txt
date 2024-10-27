@@ -1,4 +1,3 @@
-os
 numpy
 pathlib
 pandas
