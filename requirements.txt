@@ -1,0 +1,10 @@
+numpy
+pathlib
+pandas
+geopandas
+pathlib
+shapely
+folium
+leafmap
+streamlit
+streamlit-folium
