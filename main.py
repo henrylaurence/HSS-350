@@ -14,10 +14,10 @@ st.set_page_config(
     page_title="Henry Alonso's HSS 350 Independent Study Streamlit Modules",
     page_icon="👋")
 
-# Directory
-current = Path.cwd() 
-parent = current.resolve().parent / 'data'
-os.chdir(parent)
+# # Directory
+# current = Path.cwd() 
+# parent = current.resolve().parent / 'data'
+# os.chdir(parent)
 
 # Streamlit code
 st.write("# Welcome to my HSS 350 Streamlit modules!")
