@@ -15,13 +15,9 @@ st.set_page_config(
     page_icon="👋")
 
 # Directory
-current = Path.cwd()
-new = current / 'data'
-os.chdir(new)
-
-# current = Path.cwd() 
-# parent = current.resolve().parent / 'data'
-# os.chdir(parent)
+current = Path.cwd() 
+parent = current.resolve().parent / 'data'
+os.chdir(parent)
 
 # Streamlit code
 st.write("# Welcome to my HSS 350 Streamlit modules!")
