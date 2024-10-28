@@ -54,6 +54,6 @@ m.add_data(MedInc22_AMI22_BG22_geo,
                    legend_title='2022 AMI Range (3 Family Household)',
                    info_mode='on_click')
 
-m.add_gdf(gdf = NTA20, style = NTA20_style, info_mode = False)
+m.add_gdf(gdf=NTA20, style=NTA20_style, info_mode=False)
 
 m.to_streamlit(height=500)
