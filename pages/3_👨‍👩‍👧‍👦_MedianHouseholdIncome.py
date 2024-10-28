@@ -38,11 +38,11 @@ st.markdown(
 
 # Styling
 
-NTA20_style = {~
+NTA20_style = {
     "stroke": True,
     "color": 'black',
     "weight": 1,
-    "opacity":0.5,
+    "opacity":0.7,
     "fill": False
 }
 
