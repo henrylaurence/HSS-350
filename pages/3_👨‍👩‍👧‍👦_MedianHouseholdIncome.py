@@ -21,6 +21,7 @@ st.set_page_config(
 
 # Load
 MedInc22_AMI22_BG22_geo = gpd.read_file("./data/MedInc22_AMI22_BG22_geo.geojson")
+NTA20 = gpd.read_file("./data/NTA20.geojson")
 
 # Write 
 st.write("# NYC 2022 Median Household Income Dashboard")
@@ -35,13 +36,24 @@ st.markdown(
 """
 )
 
-# Create base map
-m = folium.Map(location=[40, -98], zoom_start=4)
+# Styling
+
+NTA20_style = {
+    "stroke": True,
+    "color": 'black',
+    "weight": 1,
+    "opacity":0.7,
+    "fill": False
+}
 
 # Map
 m = leafmap.Map(center=[40.7248387,-73.9775537], zoom=12, tiles="CartoDB.Positron")
+
 m.add_data(MedInc22_AMI22_BG22_geo, 
                    column='AMI22_3Family_Ranked',
                    legend_title='2022 AMI Range (3 Family Household)',
                    info_mode='on_click')
+
+m.add_gdf(gdf = NTA20, style = NTA20_style, info_mode = False)
+
 m.to_streamlit(height=500)

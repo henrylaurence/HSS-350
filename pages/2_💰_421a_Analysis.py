@@ -19,6 +19,7 @@ st.set_page_config(
 
 # Load
 HPD_AFF_Project_421a_BG22_geo = gpd.read_file("./data/HPD_AFF_Project_421a_BG22_geo.geojson")
+NTA20 = gpd.read_file("./data/NTA20.geojson")
 
 # Write 
 st.write("# HPD 421a Analysis Dashboard")
@@ -141,6 +142,3 @@ with st.sidebar:
     selected_unit_type = st.selectbox(label, options, index=options.index(st.session_state['unit_type']))
 
 update_map(selected_unit_type)
-
-
-### Add description and information to each selectbox item in future update
