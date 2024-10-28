@@ -20,7 +20,7 @@ st.set_page_config(
 )
 
 # Load
-MedInc22_AMI22_BG22_geo = gpd.read_file("MedInc22_AMI22_BG22_geo.geojson")
+MedInc22_AMI22_BG22_geo = gpd.read_file("./data/MedInc22_AMI22_BG22_geo.geojson")
 
 # Write 
 st.write("# NYC 2022 Median Household Income Dashboard")

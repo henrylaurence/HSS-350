@@ -18,7 +18,7 @@ st.set_page_config(
 )
 
 # Load
-HPD_AFF_Build_BG22_geo = gpd.read_file("HPD_AFF_Build_BG22_geo.geojson")
+HPD_AFF_Build_BG22_geo = gpd.read_file("./data/HPD_AFF_Build_BG22_geo.geojson")
 
 # Write 
 st.write("# HPD Affordable Housing Analysis Dashboard")
