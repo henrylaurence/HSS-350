@@ -3,6 +3,7 @@ pathlib
 pandas
 geopandas
 shapely
+mapclassify
 folium
 leafmap
 streamlit
